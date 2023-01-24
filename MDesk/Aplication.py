@@ -19,7 +19,7 @@ class Interface_funcs:
             text='Select DATE',
             border=5,
             font=("Helvetica",15),
-            fg='Purple',
+            fg='Red',
             command=self.select_Date,
         )
         self.bt_Date_select.place(
@@ -119,7 +119,7 @@ class Application(Interface_funcs,Funcs):
         ######################## Calendar Date Select Button #######################
        
         self.bt_calendar_select = Button(
-            self.frame_1, text='Select Date', command=self.open_calendar
+            self.frame_1, text='Select Date', command=self.open_calendar, fg='Red'
         )
         self.bt_calendar_select.place(
             relx=0.525, rely=0.8, relwidth=0.425, relheight=0.04
