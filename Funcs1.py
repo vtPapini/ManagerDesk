@@ -3,7 +3,7 @@ import yfinance as yf
 import pandas as pd
 from tkinter import *
 from tkinter import ttk
-from DB_.CRUDs import *
+from CRUDs import *
 
 class Funcs:
     def wallet_df_generate(self):
